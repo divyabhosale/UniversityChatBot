@@ -1,5 +1,3 @@
-# comp6741project
-
 Step 1: Install requirements.txt
 		py -m pip install -r requirements.txt
 Step 2: Run generate_university_courses.py
