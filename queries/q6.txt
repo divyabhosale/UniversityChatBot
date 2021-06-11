@@ -1,0 +1,27 @@
+Q: What is the lecture and lab content for Intelligent Systems?
+
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX np: <http://www.nanopub.org/nschema#>
+PREFIX npg: <http://ns.nature.com/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX focu: <http://focu.io/schema#>
+PREFIX focup: <http://focu.io/schema/property#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+SELECT ?course_name ?lecture_name ?lab_name ?slides ?worksheets ?lab_slides
+            WHERE
+            {
+  				?course rdf:type focu:Course .
+  				?course foaf:name ?course_name .
+  				?course foaf:name "INTELLIGENT SYSTEMS" .
+  				?lecture focup:belongs_to ?course .
+  				?lab rdfs:subClassOf ?lecture .
+  				?lecture foaf:name ?lecture_name .
+  				?lab foaf:name ?lab_name .
+  				?lecture focup:includes_slides ?slides .
+  				?lecture focup:includes_worksheet ?worksheets .
+  				?lab focup:includes_slides ?lab_slides.
+             	
+            }
+			ORDER BY ?lecture_name

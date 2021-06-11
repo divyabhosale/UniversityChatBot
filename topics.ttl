@@ -1,0 +1,136 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix focu: <http://focu.io/schema#> .
+@prefix focup: <http://focu.io/schema/property#> .
+@prefix npg: <http://ns.nature.com/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+
+<http://focu.io/data#/machine_learning> a focu:Topic ;
+    rdfs:label "Machine Learning"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Machine_learning> ;
+    schema:isPartOf <http://focu.io/data#COMP_6741/>,
+    				<http://focu.io/data#COMP_474/>,
+    				<http://focu.io/data#COMP_6321/>,
+    				<http://focu.io/data#COMP_6741Lecture7/> ;
+    foaf:name "Machine Learning" .
+
+<http://focu.io/data#/intelligent_system> a focu:Topic ;
+    rdfs:label "Machine Learning"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Intelligent_System> ;
+    schema:isPartOf <http://focu.io/data#COMP_6741/>,
+    				<http://focu.io/data#COMP_474/>,
+    				<http://focu.io/data#COMP_6741Lecture1/> ;
+    foaf:name "Intelligent System" .
+
+<http://focu.io/data#/Knowledge_Graphs> a focu:Topic ;
+    rdfs:label "Knowledge Graphs"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Knowledge_Graph> ;
+    schema:isPartOf <http://focu.io/data#COMP_6741/>,
+    				<http://focu.io/data#COMP_474/>,
+    				<http://focu.io/data#COMP_6741Lecture2/> ;
+    foaf:name "Knowledge Graph" .
+
+<http://focu.io/data#/Semantic_Web> a focu:Topic ;
+    rdfs:label "Semantic Web"@en ;
+    owl:sameAs <http://dbpedia.org/resource/Semantic_Web> ;
+    schema:isPartOf <http://focu.io/data#COMP_6741/>,
+    				<http://focu.io/data#COMP_474/>,
+    				<http://focu.io/data#COMP_6531/>,
+    				<http://focu.io/data#COMP_6741Lecture2/> ;
+    foaf:name "Semantic Web" .
+
+<http://focu.io/data#/Vocabularies> a focu:Topic ;
+    rdfs:label "Vocabularies and Ontologies"@en ;
+    owl:sameAs <https://dbpedia.org/resourc/Vocabularies> ;
+    schema:isPartOf <http://focu.io/data#COMP_6741/>,
+    				<http://focu.io/data#COMP_474/>,
+    				<http://focu.io/data#COMP_6741Lecture3/> ;
+    foaf:name "Vocabularies" .
+
+<http://focu.io/data#/Ontologies> a focu:Topic ;
+    rdfs:label "Ontologies"@en ;
+    owl:sameAs <https://dbpedia.org/resource/Ontology_(information_science)> ;
+    schema:isPartOf <http://focu.io/data#COMP_6741/>,
+    				<http://focu.io/data#COMP_474/>,
+    				<http://focu.io/data#COMP_6741Lecture3/> ;
+    foaf:name "Ontologies" .
+
+<http://focu.io/data#/SVM> a focu:Topic ;
+    rdfs:label "SVM"@en ;
+    owl:sameAs <https://dbpedia.org/resource/SVM> ;
+    schema:isPartOf <http://focu.io/data#COMP_6321/>,
+    				<http://focu.io/data#COMP_6321Lecture6/> ;
+    foaf:name "SVM" .
+
+<http://focu.io/data#/Convolutional_neural_network> a focu:Topic ;
+    rdfs:label "Convolutional neural network"@en ;
+    owl:sameAs <https://dbpedia.org/resource/Convolutional_neural_network> ;
+    schema:isPartOf <http://focu.io/data#COMP_6321/>,
+                    <http://focu.io/data#COMP_6721>,
+    				<http://focu.io/data#COMP_6321Lecture8/> ;
+    foaf:name "Convolutional neural network" .
+
+<http://focu.io/data#/Decision_tree> a focu:Topic ;
+    rdfs:label "Decision tree"@en ;
+    owl:sameAs <https://dbpedia.org/resource/Decision_tree> ;
+    schema:isPartOf <http://focu.io/data#COMP_6321/>,
+                    <http://focu.io/data#COMP_6721>,
+    				<http://focu.io/data#COMP_6321Lecture5/> ;
+    foaf:name "Decision tree" .
+
+<http://focu.io/data#/Recommender_system> a focu:Topic ;
+    rdfs:label "Recommender system"@en ;
+    owl:sameAs <https://dbpedia.org/resource/Recommender_system> ;
+    schema:isPartOf <http://focu.io/data#COMP_6741/>,
+    				<http://focu.io/data#COMP_474/>,
+    				<http://focu.io/data#COMP_6741Lecture6/> ;
+    foaf:name "Recommender system" .
+
+<http://focu.io/data#/Intelligent_agent> a focu:Topic ;
+    rdfs:label "Intelligent agent"@en ;
+    owl:sameAs <https://dbpedia.org/resource/Intelligent_agent> ;
+    schema:isPartOf <http://focu.io/data#COMP_6741/>,
+    				<http://focu.io/data#COMP_474/>,
+    				<http://focu.io/data#COMP_6741Lecture8/> ;
+    foaf:name "Intelligent agent" .
+
+<http://focu.io/data#/Clustering> a focu:Topic ;
+    rdfs:label "Clustering"@en ;
+    owl:sameAs <https://dbpedia.org/resource/Cluster> ;
+    schema:isPartOf <http://focu.io/data#COMP_6321/>,
+    				<http://focu.io/data#COMP_6321Lecture4/> ;
+    foaf:name "Clustering" .
+
+<http://focu.io/data#/Linear_model> a focu:Topic ;
+    rdfs:label "Linear model"@en ;
+    owl:sameAs <https://dbpedia.org/resource/Linear_model> ;
+    schema:isPartOf <http://focu.io/data#COMP_6321/>,
+    				<http://focu.io/data#COMP_6321Lecture2/> ;
+    foaf:name "Linear model" .
+
+<http://focu.io/data#/Erlang> a focu:Topic ;
+    rdfs:label "Erlang"@en ;
+    owl:sameAs <https://dbpedia.org/resource/Erlang> ;
+    schema:isPartOf <http://focu.io/data#COMP_6411/> ;
+    foaf:name "Erlang" .
+
+<http://focu.io/data#/Cloud_computing> a focu:Topic ;
+    rdfs:label "Cloud_computing"@en ;
+    owl:sameAs <https://dbpedia.org/resource/Cloud_computing> ;
+    schema:isPartOf <http://focu.io/data#INSE_6620/>,
+    				<http://focu.io/data#MECH_476/>,
+    				<http://focu.io/data#COEN_424/> ;
+    foaf:name "Cloud Computing" .
+
+<http://focu.io/data#/IOT> a focu:Topic ;
+    rdfs:label "IOT"@en ;
+    owl:sameAs <https://dbpedia.org/resource/IOT> ;
+    schema:isPartOf <http://focu.io/data#INSE_6670/>,
+    				<http://focu.io/data#COEN_446/>,
+    				<http://focu.io/data#CEPS_1121EO/> ;
+    foaf:name "Internet Of Things" .

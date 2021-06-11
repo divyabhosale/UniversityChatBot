@@ -1,0 +1,102 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - about_course
+  - about_topic
+  - about_topic_event
+  - about_lab
+  - about_lecture
+  - about_lecture_lab
+  - about_course_syllabus
+  - about_department
+  - about_department_grad_courses
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+  
+entities:
+  - course
+  - topic
+  - course_event
+  - lecture_info
+  - topic_lecture_relation
+  - lecture_lab_info
+  - course_syllabus
+  - department
+  - department_grad_courses
+  
+slots:
+  course:
+    type: any
+    initial_value: "initial"
+    
+  topic:
+    type: any
+    initial_value: "initial"
+    
+  course_event:
+    type: any
+    initial_value: "initial"
+    
+  lecture_info:
+    type: any
+    initial_value: "initial"
+
+  topic_lecture_relation:
+    type: any
+    initial_value: "initial"
+
+  lecture_lab_info:
+    type: any
+    initial_value: "initial"
+
+  course_syllabus:
+    type: any
+    initial_value: "initial"
+
+  department:
+    type: any
+    initial_value: "initial" 
+
+  department_grad_courses:
+    type: any
+    initial_value: "initial" 
+    
+actions:
+  - action_course_info
+  - action_topic_info
+  - action_topic_info_event
+  - action_lab_info
+  - action_lecture_info
+  - action_lecture_lab_info
+  - action_syllabus_info
+  - action_department_info
+  - action_graduate_courses_info

@@ -1,0 +1,94 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: get course info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_course
+    - action: action_course_info
+
+
+- story: get topic info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_topic
+    - action: action_topic_info
+    
+- story: get topic info by event
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_topic_event
+    - action: action_topic_info_event
+
+- story: get lab info by event
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_lab
+    - action: action_lab_info
+
+- story: get lecture info by topic
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_lecture
+    - action: action_lecture_info
+
+- story: get lecture and lab info by course
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_lecture_lab
+    - action: action_lecture_lab_info
+
+- story: get lecture info by topic
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_course_syllabus
+    - action: action_syllabus_info
+    
+- story: get department info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_department
+    - action: action_department_info
+
+- story: get department grad course info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: about_department_grad_courses
+    - action: action_graduate_courses_info

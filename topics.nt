@@ -1,0 +1,109 @@
+<http://focu.io/data#/machine_learning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/machine_learning> <http://www.w3.org/2000/01/rdf-schema#label> "Machine Learning"@en .
+<http://focu.io/data#/machine_learning> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Machine_learning> .
+<http://focu.io/data#/machine_learning> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741/> .
+<http://focu.io/data#/machine_learning> <http://schema.org/isPartOf> <http://focu.io/data#COMP_474/> .
+<http://focu.io/data#/machine_learning> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6321/> .
+<http://focu.io/data#/machine_learning> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741Lecture7/> .
+<http://focu.io/data#/machine_learning> <http://xmlns.com/foaf/0.1/name> "Machine Learning" .
+<http://focu.io/data#/intelligent_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/intelligent_system> <http://www.w3.org/2000/01/rdf-schema#label> "Machine Learning"@en .
+<http://focu.io/data#/intelligent_system> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Intelligent_System> .
+<http://focu.io/data#/intelligent_system> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741/> .
+<http://focu.io/data#/intelligent_system> <http://schema.org/isPartOf> <http://focu.io/data#COMP_474/> .
+<http://focu.io/data#/intelligent_system> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741Lecture1/> .
+<http://focu.io/data#/intelligent_system> <http://xmlns.com/foaf/0.1/name> "Intelligent System" .
+<http://focu.io/data#/Knowledge_Graphs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/Knowledge_Graphs> <http://www.w3.org/2000/01/rdf-schema#label> "Knowledge Graphs"@en .
+<http://focu.io/data#/Knowledge_Graphs> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Knowledge_Graph> .
+<http://focu.io/data#/Knowledge_Graphs> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741/> .
+<http://focu.io/data#/Knowledge_Graphs> <http://schema.org/isPartOf> <http://focu.io/data#COMP_474/> .
+<http://focu.io/data#/Knowledge_Graphs> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741Lecture2/> .
+<http://focu.io/data#/Knowledge_Graphs> <http://xmlns.com/foaf/0.1/name> "Knowledge Graph" .
+<http://focu.io/data#/Semantic_Web> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/Semantic_Web> <http://www.w3.org/2000/01/rdf-schema#label> "Semantic Web"@en .
+<http://focu.io/data#/Semantic_Web> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Semantic_Web> .
+<http://focu.io/data#/Semantic_Web> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741/> .
+<http://focu.io/data#/Semantic_Web> <http://schema.org/isPartOf> <http://focu.io/data#COMP_474/> .
+<http://focu.io/data#/Semantic_Web> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6531/> .
+<http://focu.io/data#/Semantic_Web> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741Lecture2/> .
+<http://focu.io/data#/Semantic_Web> <http://xmlns.com/foaf/0.1/name> "Semantic Web" .
+<http://focu.io/data#/Vocabularies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/Vocabularies> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabularies and Ontologies"@en .
+<http://focu.io/data#/Vocabularies> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/resourc/Vocabularies> .
+<http://focu.io/data#/Vocabularies> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741/> .
+<http://focu.io/data#/Vocabularies> <http://schema.org/isPartOf> <http://focu.io/data#COMP_474/> .
+<http://focu.io/data#/Vocabularies> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741Lecture3/> .
+<http://focu.io/data#/Vocabularies> <http://xmlns.com/foaf/0.1/name> "Vocabularies" .
+<http://focu.io/data#/Ontologies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/Ontologies> <http://www.w3.org/2000/01/rdf-schema#label> "Ontologies"@en .
+<http://focu.io/data#/Ontologies> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/resource/Ontology_(information_science)> .
+<http://focu.io/data#/Ontologies> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741/> .
+<http://focu.io/data#/Ontologies> <http://schema.org/isPartOf> <http://focu.io/data#COMP_474/> .
+<http://focu.io/data#/Ontologies> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741Lecture3/> .
+<http://focu.io/data#/Ontologies> <http://xmlns.com/foaf/0.1/name> "Ontologies" .
+<http://focu.io/data#/SVM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/SVM> <http://www.w3.org/2000/01/rdf-schema#label> "SVM"@en .
+<http://focu.io/data#/SVM> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/resource/SVM> .
+<http://focu.io/data#/SVM> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6321/> .
+<http://focu.io/data#/SVM> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6321Lecture6/> .
+<http://focu.io/data#/SVM> <http://xmlns.com/foaf/0.1/name> "SVM" .
+<http://focu.io/data#/Convolutional_neural_network> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/Convolutional_neural_network> <http://www.w3.org/2000/01/rdf-schema#label> "Convolutional neural network"@en .
+<http://focu.io/data#/Convolutional_neural_network> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/resource/Convolutional_neural_network> .
+<http://focu.io/data#/Convolutional_neural_network> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6321/> .
+<http://focu.io/data#/Convolutional_neural_network> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6721> .
+<http://focu.io/data#/Convolutional_neural_network> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6321Lecture8/> .
+<http://focu.io/data#/Convolutional_neural_network> <http://xmlns.com/foaf/0.1/name> "Convolutional neural network" .
+<http://focu.io/data#/Decision_tree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/Decision_tree> <http://www.w3.org/2000/01/rdf-schema#label> "Decision tree"@en .
+<http://focu.io/data#/Decision_tree> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/resource/Decision_tree> .
+<http://focu.io/data#/Decision_tree> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6321/> .
+<http://focu.io/data#/Decision_tree> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6721> .
+<http://focu.io/data#/Decision_tree> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6321Lecture5/> .
+<http://focu.io/data#/Decision_tree> <http://xmlns.com/foaf/0.1/name> "Decision tree" .
+<http://focu.io/data#/Recommender_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/Recommender_system> <http://www.w3.org/2000/01/rdf-schema#label> "Recommender system"@en .
+<http://focu.io/data#/Recommender_system> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/resource/Recommender_system> .
+<http://focu.io/data#/Recommender_system> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741/> .
+<http://focu.io/data#/Recommender_system> <http://schema.org/isPartOf> <http://focu.io/data#COMP_474/> .
+<http://focu.io/data#/Recommender_system> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741Lecture6/> .
+<http://focu.io/data#/Recommender_system> <http://xmlns.com/foaf/0.1/name> "Recommender system" .
+<http://focu.io/data#/Intelligent_agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/Intelligent_agent> <http://www.w3.org/2000/01/rdf-schema#label> "Intelligent agent"@en .
+<http://focu.io/data#/Intelligent_agent> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/resource/Intelligent_agent> .
+<http://focu.io/data#/Intelligent_agent> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741/> .
+<http://focu.io/data#/Intelligent_agent> <http://schema.org/isPartOf> <http://focu.io/data#COMP_474/> .
+<http://focu.io/data#/Intelligent_agent> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6741Lecture8/> .
+<http://focu.io/data#/Intelligent_agent> <http://xmlns.com/foaf/0.1/name> "Intelligent agent" .
+<http://focu.io/data#/Clustering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/Clustering> <http://www.w3.org/2000/01/rdf-schema#label> "Clustering"@en .
+<http://focu.io/data#/Clustering> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/resource/Cluster> .
+<http://focu.io/data#/Clustering> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6321/> .
+<http://focu.io/data#/Clustering> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6321Lecture4/> .
+<http://focu.io/data#/Clustering> <http://xmlns.com/foaf/0.1/name> "Clustering" .
+<http://focu.io/data#/Linear_model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/Linear_model> <http://www.w3.org/2000/01/rdf-schema#label> "Linear model"@en .
+<http://focu.io/data#/Linear_model> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/resource/Linear_model> .
+<http://focu.io/data#/Linear_model> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6321/> .
+<http://focu.io/data#/Linear_model> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6321Lecture2/> .
+<http://focu.io/data#/Linear_model> <http://xmlns.com/foaf/0.1/name> "Linear model" .
+<http://focu.io/data#/Erlang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/Erlang> <http://www.w3.org/2000/01/rdf-schema#label> "Erlang"@en .
+<http://focu.io/data#/Erlang> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/resource/Erlang> .
+<http://focu.io/data#/Erlang> <http://schema.org/isPartOf> <http://focu.io/data#COMP_6411/> .
+<http://focu.io/data#/Erlang> <http://xmlns.com/foaf/0.1/name> "Erlang" .
+<http://focu.io/data#/Cloud_computing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/Cloud_computing> <http://www.w3.org/2000/01/rdf-schema#label> "Cloud_computing"@en .
+<http://focu.io/data#/Cloud_computing> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/resource/Cloud_computing> .
+<http://focu.io/data#/Cloud_computing> <http://schema.org/isPartOf> <http://focu.io/data#INSE_6620/> .
+<http://focu.io/data#/Cloud_computing> <http://schema.org/isPartOf> <http://focu.io/data#MECH_476/> .
+<http://focu.io/data#/Cloud_computing> <http://schema.org/isPartOf> <http://focu.io/data#COEN_424/> .
+<http://focu.io/data#/Cloud_computing> <http://xmlns.com/foaf/0.1/name> "Cloud Computing" .
+<http://focu.io/data#/IOT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://focu.io/schema#Topic> .
+<http://focu.io/data#/IOT> <http://www.w3.org/2000/01/rdf-schema#label> "IOT"@en .
+<http://focu.io/data#/IOT> <http://www.w3.org/2002/07/owl#sameAs> <https://dbpedia.org/resource/IOT> .
+<http://focu.io/data#/IOT> <http://schema.org/isPartOf> <http://focu.io/data#INSE_6670/> .
+<http://focu.io/data#/IOT> <http://schema.org/isPartOf> <http://focu.io/data#COEN_446/> .
+<http://focu.io/data#/IOT> <http://schema.org/isPartOf> <http://focu.io/data#CEPS_1121EO/> .
+<http://focu.io/data#/IOT> <http://xmlns.com/foaf/0.1/name> "Internet Of Things" .

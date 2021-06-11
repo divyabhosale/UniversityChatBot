@@ -1,0 +1,302 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix focu: <http://focu.io/schema#> .
+@prefix focup: <http://focu.io/schema/property#> .
+@prefix npg: <http://ns.nature.com/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://focu.io/data#COMP_6321Lab1/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lab/1_Python_Language_Exercise/lab1.ipynb> ;
+    npg:number 1 ;
+    rdfs:comment "1_Python_Language_Exercise is a part of COMP_6321."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6321Lecture1/> ;
+    foaf:name "1_Python_Language_Exercise"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lab10/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lab/10_Gans/lab10.ipynb> ;
+    npg:number 10 ;
+    rdfs:comment "10_Gans is a part of COMP_6321."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6321Lecture10/> ;
+    foaf:name "10_Gans"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lab2/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lab/2_Gradient_Based_Optimization/lab2.ipynb> ;
+    npg:number 2 ;
+    rdfs:comment "2_Gradient_Based_Optimization is a part of COMP_6321."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6321Lecture2/> ;
+    foaf:name "2_Gradient_Based_Optimization"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lab3/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lab/3_Clustering/lab3.ipynb> ;
+    npg:number 3 ;
+    rdfs:comment "3_Clustering is a part of COMP_6321."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6321Lecture3/> ;
+    foaf:name "3_Clustering"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lab4/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lab/4_SVM/lab4.ipynb> ;
+    npg:number 4 ;
+    rdfs:comment "4_SVM is a part of COMP_6321."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6321Lecture4/> ;
+    foaf:name "4_SVM"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lab5/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lab/5_Random_Forest/lab5.ipynb> ;
+    npg:number 5 ;
+    rdfs:comment "5_Random_Forest is a part of COMP_6321."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6321Lecture5/> ;
+    foaf:name "5_Random_Forest"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lab6/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lab/6_AdaBoost/lab6.ipynb> ;
+    npg:number 6 ;
+    rdfs:comment "6_AdaBoost is a part of COMP_6321."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6321Lecture6/> ;
+    foaf:name "6_AdaBoost"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lab7/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lab/7_CrossValidation/lab7.ipynb> ;
+    npg:number 7 ;
+    rdfs:comment "7_CrossValidation is a part of COMP_6321."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6321Lecture7/> ;
+    foaf:name "7_CrossValidation"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lab8/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lab/8_NeuralNetworks/lab8.ipynb> ;
+    npg:number 8 ;
+    rdfs:comment "8_NeuralNetworks is a part of COMP_6321."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6321Lecture8/> ;
+    foaf:name "8_NeuralNetworks"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lab9/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lab/9_CNN/lab9.ipynb> ;
+    npg:number 9 ;
+    rdfs:comment "9_CNN is a part of COMP_6321."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6321Lecture9/> ;
+    foaf:name "9_CNN"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture11/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/11_Gans/slides09.pdf> ;
+    npg:number 11 ;
+    rdfs:comment "11_Gans is a part of COMP_6321."@en ;
+    foaf:name "11_Gans"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture12/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/12_Kernel_Density/slides12.pdf> ;
+    npg:number 12 ;
+    rdfs:comment "12_Kernel_Density is a part of COMP_6321."@en ;
+    foaf:name "12_Kernel_Density"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture13/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/13_Loss_Hyperparameter_Search/slides08.pdf> ;
+    npg:number 13 ;
+    rdfs:comment "13_Loss_Hyperparameter_Search is a part of COMP_6321."@en ;
+    foaf:name "13_Loss_Hyperparameter_Search"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture14/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/14_Multiclass_Classification/slides07.pdf> ;
+    npg:number 14 ;
+    rdfs:comment "14_Multiclass_Classification is a part of COMP_6321."@en ;
+    foaf:name "14_Multiclass_Classification"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture15/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/15_Recurrent_Networks/slides15.pdf> ;
+    npg:number 15 ;
+    rdfs:comment "15_Recurrent_Networks is a part of COMP_6321."@en ;
+    foaf:name "15_Recurrent_Networks"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lab1/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lab/1_Python/Lab1.pdf> ;
+    npg:number 1 ;
+    rdfs:comment "1_Python is a part of COMP_6741."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6741Lecture1/> ;
+    foaf:name "1_Python"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lab2/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lab/2_RDF/Lab2.pdf> ;
+    npg:number 2 ;
+    rdfs:comment "2_RDF is a part of COMP_6741."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6741Lecture2/> ;
+    foaf:name "2_RDF"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lab3/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lab/3_RDFS/Lab3.pdf> ;
+    npg:number 3 ;
+    rdfs:comment "3_RDFS is a part of COMP_6741."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6741Lecture3/> ;
+    foaf:name "3_RDFS"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lab4/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lab/4_SPARQL/Lab4.pdf> ;
+    npg:number 4 ;
+    rdfs:comment "4_SPARQL is a part of COMP_6741."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6741Lecture4/> ;
+    foaf:name "4_SPARQL"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lab5/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lab/5_Linked_Open_Data_Lab/Lab5.pdf> ;
+    npg:number 5 ;
+    rdfs:comment "5_Linked_Open_Data_Lab is a part of COMP_6741."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6741Lecture5/> ;
+    foaf:name "5_Linked_Open_Data_Lab"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lab6/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lab/6_Recommender_Systems_Lab/Lab6.pdf> ;
+    npg:number 6 ;
+    rdfs:comment "6_Recommender_Systems_Lab is a part of COMP_6741."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6741Lecture6/> ;
+    foaf:name "6_Recommender_Systems_Lab"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lab7/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lab/7_KNN_Classification/Lab8.pdf> ;
+    npg:number 7 ;
+    rdfs:comment "7_KNN_Classification is a part of COMP_6741."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6741Lecture7/> ;
+    foaf:name "7_KNN_Classification"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lab8/> a focu:Lab ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lab/8_TF_IDF/Lab7.pdf> ;
+    npg:number 8 ;
+    rdfs:comment "8_TF_IDF is a part of COMP_6741."@en ;
+    rdfs:subClassOf <http://focu.io/data#COMP_6741Lecture8/> ;
+    foaf:name "8_TF_IDF"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture1/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/1_Introduction/slides01.pdf> ;
+    npg:number 1 ;
+    rdfs:comment "1_Introduction is a part of COMP_6321."@en ;
+    foaf:name "1_Introduction"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture10/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/10_Neural_Networks_2/slides13.pdf> ;
+    npg:number 10 ;
+    rdfs:comment "10_Neural_Networks_2 is a part of COMP_6321."@en ;
+    foaf:name "10_Neural_Networks_2"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture2/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/2_Linear_Models/slides02.pdf> ;
+    npg:number 2 ;
+    rdfs:comment "2_Linear_Models is a part of COMP_6321."@en ;
+    foaf:name "2_Linear_Models"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture3/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/3_Dimensionality_Reduction/slides05.pdf> ;
+    npg:number 3 ;
+    rdfs:comment "3_Dimensionality_Reduction is a part of COMP_6321."@en ;
+    foaf:name "3_Dimensionality_Reduction"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture4/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/4_Clustering/slides11.pdf> ;
+    npg:number 4 ;
+    rdfs:comment "4_Clustering is a part of COMP_6321."@en ;
+    foaf:name "4_Clustering"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture5/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/5_Decision_Trees/slides10.pdf> ;
+    npg:number 5 ;
+    rdfs:comment "5_Decision_Trees is a part of COMP_6321."@en ;
+    foaf:name "5_Decision_Trees"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture6/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/6_Support_Vector_Machines/slides14.pdf> ;
+    npg:number 6 ;
+    rdfs:comment "6_Support_Vector_Machines is a part of COMP_6321."@en ;
+    foaf:name "6_Support_Vector_Machines"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture7/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/7_Bagging_Boosting/slides03.pdf> ;
+    npg:number 7 ;
+    rdfs:comment "7_Bagging_Boosting is a part of COMP_6321."@en ;
+    foaf:name "7_Bagging_Boosting"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture8/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/8_Convolutional_Networks/slides04.pdf> ;
+    npg:number 8 ;
+    rdfs:comment "8_Convolutional_Networks is a part of COMP_6321."@en ;
+    foaf:name "8_Convolutional_Networks"^^xsd:string .
+
+<http://focu.io/data#COMP_6321Lecture9/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6321/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6321/Lecture/9_Neural_Networks_1/slides06.pdf> ;
+    npg:number 9 ;
+    rdfs:comment "9_Neural_Networks_1 is a part of COMP_6321."@en ;
+    foaf:name "9_Neural_Networks_1"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lecture1/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6741/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/1_Introduction/slides01.pdf> ;
+    focup:includes_worksheet <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/1_Introduction/worksheet01.pdf> ;
+    npg:number 1 ;
+    rdfs:comment "1_Introduction is a part of COMP_6741."@en ;
+    foaf:name "1_Introduction"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lecture2/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6741/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/2_Knowledge_Graphs/slides02.pdf> ;
+    focup:includes_worksheet <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/2_Knowledge_Graphs/worksheet02.pdf> ;
+    npg:number 2 ;
+    rdfs:comment "2_Knowledge_Graphs is a part of COMP_6741."@en ;
+    foaf:name "2_Knowledge_Graphs"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lecture3/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6741/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/3_Vocabularies_Ontologies/slides03.pdf> ;
+    focup:includes_worksheet <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/3_Vocabularies_Ontologies/worksheet03.pdf> ;
+    npg:number 3 ;
+    rdfs:comment "3_Vocabularies_Ontologies is a part of COMP_6741."@en ;
+    foaf:name "3_Vocabularies_Ontologies"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lecture4/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6741/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/4_Knowledge_Based_Queries/slides04.pdf> ;
+    focup:includes_worksheet <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/4_Knowledge_Based_Queries/worksheet04.pdf> ;
+    npg:number 4 ;
+    rdfs:comment "4_Knowledge_Based_Queries is a part of COMP_6741."@en ;
+    foaf:name "4_Knowledge_Based_Queries"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lecture5/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6741/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/5_Linked_Open_Data/slides05.pdf> ;
+    focup:includes_worksheet <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/5_Linked_Open_Data/worksheet05.pdf> ;
+    npg:number 5 ;
+    rdfs:comment "5_Linked_Open_Data is a part of COMP_6741."@en ;
+    foaf:name "5_Linked_Open_Data"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lecture6/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6741/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/6_Recommender_Systems/slides06.pdf> ;
+    focup:includes_worksheet <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/6_Recommender_Systems/worksheet06.pdf> ;
+    npg:number 6 ;
+    rdfs:comment "6_Recommender_Systems is a part of COMP_6741."@en ;
+    foaf:name "6_Recommender_Systems"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lecture7/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6741/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/7_Introduction_to_Machine_Learning/slides07.pdf> ;
+    focup:includes_worksheet <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/7_Introduction_to_Machine_Learning/worksheet07.pdf> ;
+    npg:number 7 ;
+    rdfs:comment "7_Introduction_to_Machine_Learning is a part of COMP_6741."@en ;
+    foaf:name "7_Introduction_to_Machine_Learning"^^xsd:string .
+
+<http://focu.io/data#COMP_6741Lecture8/> a focu:Lecture ;
+    focup:belongs_to <http://focu.io/data#COMP_6741/> ;
+    focup:includes_slides <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/8_Intelligent_Agents/slides08.pdf> ;
+    focup:includes_worksheet <file:///D:/CONCORDIA/COMP_6741_Intelligent_Systems/Project_Assignment/comp6741project/database/Concordia_University/COMP_6741/Lecture/8_Intelligent_Agents/worksheet08.pdf> ;
+    npg:number 8 ;
+    rdfs:comment "8_Intelligent_Agents is a part of COMP_6741."@en ;
+    foaf:name "8_Intelligent_Agents"^^xsd:string .
+

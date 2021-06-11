@@ -1,0 +1,17 @@
+Q: What is COMP 474 about?
+
+
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX np: <http://www.nanopub.org/nschema#>
+PREFIX npg: <http://ns.nature.com/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX focu: <http://focu.io/schema#>
+PREFIX focup: <http://focu.io/schema/property#>
+SELECT ?course ?description
+            WHERE
+            {
+  				?course rdf:type focu:Course .
+				?course dc:description ?description .
+  				?course npg:number 474 .
+                ?course focup:belongs_to "COMP" .
+            }

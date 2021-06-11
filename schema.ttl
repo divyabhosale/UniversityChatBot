@@ -1,0 +1,74 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix focu: <http://focu.io/schema#> .
+@prefix focup: <http://focu.io/schema/property#> .
+@prefix focudata: <http://focu.io/data#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix npg: <http://ns.nature.com/terms/number> .
+@prefix dcterms: <http://purl.org/dc/terms/description> .
+
+focu:University
+	rdfs:comment "University"@en ;
+	rdfs:label "University"@en ;
+	rdfs:subClassOf foaf:Organization ;
+	a rdfs:Class.
+
+focu:Course a rdfs:Class ;
+    rdfs:label "Courses"@en ;
+    rdfs:comment "Represents the courses offered in the Universities included in the chatbot."@en .
+
+focu:Lecture a rdfs:Class ;
+    rdfs:label "Lectures"@en ;
+    rdfs:comment "Information about lectures in a course."@en .
+
+focu:Lab a rdfs:Class ;
+    rdfs:label "Labs/Tutorials"@en ;
+    rdfs:comment "Represents the semester in which the course was completed in."@en ;
+	rdfs:subClassOf focu:Lecture.
+
+focu:Topic a rdfs:Class ;
+    rdfs:label "Topics under a courses"@en ;
+    rdfs:comment "Information about the topics that are covered in a course."@en .
+	
+focup:belongs_to
+	rdf:type rdfs:Property ;
+    rdfs:label "Belongs to"@en ;
+    rdfs:comment "Lecture/Topic belongs to the course."@en .
+		
+focup:has_outline
+	rdf:type rdfs:Property ;
+    rdfs:label "Course Outline"@en ;
+    rdfs:comment "Course Syllabus."@en .
+
+focup:has_level
+	rdf:type rdfs:Property ;
+    rdfs:label "Course Level"@en ;
+    rdfs:comment "Undergraduate/Graduate."@en .
+
+focup:includes_content
+	rdf:type rdfs:Property ;
+	rdfs:label "Lecture/Lab content"@en ;
+    rdfs:comment "Includes lecture contents such as slides,worksheets."@en .
+	
+focup:includes_slides
+	rdfs:subPropertyOf focup:includes_content ;
+	rdfs:label "slides in a lecture"@en ;
+    rdfs:comment "Includes lecture contents such as slides"@en .
+	
+focup:includes_worksheet
+	rdfs:subPropertyOf focup:includes_content ;
+	rdfs:label "worksheet in a lecture"@en ;
+    rdfs:comment "Includes lecture contents such as worksheet"@en .
+
+focup:includes_reading
+	rdfs:subPropertyOf focup:includes_content ;
+	rdfs:label "Readings in a lecture"@en ;
+    rdfs:comment "Includes lecture contents such as reading materials"@en .
+
+focup:includes_other_material
+	rdfs:subPropertyOf focup:includes_content ;
+	rdfs:label "Other material in a lecture"@en ;
+    rdfs:comment "Includes lecture contents such as other materials -videos,images"@en .
+	
+

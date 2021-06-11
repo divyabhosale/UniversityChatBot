@@ -1,0 +1,21 @@
+Q: What is the content for Lecture 4 of course COMP 6741 ? 
+
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX np: <http://www.nanopub.org/nschema#>
+PREFIX npg: <http://ns.nature.com/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX focu: <http://focu.io/schema#>
+PREFIX focup: <http://focu.io/schema/property#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?lecture ?slides ?worksheet
+            WHERE
+            {
+  				?lecture rdf:type focu:Lecture .
+				?lecture focup:includes_slides ?slides .
+  				?lecture focup:includes_worksheet ?worksheet .
+  				?lecture npg:number 4 .
+  				?lecture focup:belongs_to ?course.
+  				?course rdf:type focu:Course.
+  				?course focup:belongs_to "COMP".
+  				?course npg:number 6741.
+            }

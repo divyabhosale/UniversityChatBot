@@ -1,0 +1,3 @@
+Total number of triples
+
+SELECT (COUNT(?s) AS ?triples) WHERE { ?s ?p ?o }

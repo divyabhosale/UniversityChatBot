@@ -1,0 +1,21 @@
+Q: Which lecture is available for machine learning topic? 
+
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX np: <http://www.nanopub.org/nschema#>
+PREFIX npg: <http://ns.nature.com/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX focu: <http://focu.io/schema#>
+PREFIX focup: <http://focu.io/schema/property#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+SELECT ?topic ?lecture ?lecture_name ?lecture_slides
+            WHERE
+            {
+  				?topic rdf:type focu:Topic .
+             			?topic foaf:name "Machine Learning" .
+  				?topic schema:isPartOf ?lecture .
+  				?lecture rdf:type focu:Lecture .
+  				?lecture foaf:name ?lecture_name .
+  				?lecture focup:includes_slides ?lecture_slides .
+            }

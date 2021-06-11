@@ -1,0 +1,137 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    
+- intent: about_course
+  examples: |
+    - What is [COMP6741](course) about?
+    - What is [COMP6741](course) ?
+
+- intent: about_topic
+  examples: |
+    - Which courses cover [machine learning](topic)?
+    - Which courses cover the [machine learning](topic)?
+
+- intent: about_topic_event
+  examples: |
+    - Which topics are covered in [Lab #2 of COMP 6741](course_event)?
+    - Which topics are covered in the [Lab #2 of COMP 6741](course_event)?
+
+- intent: about_lab
+  examples: |
+    - What is the corresponding Lab for [Lecture 10 of COMP 6321 course](lecture_info)?
+    - What is corresponding Lab for [Lecture 10 of COMP 6321 course](lecture_info)?
+    
+- intent: about_lecture
+  examples: |
+    - Which lecture is available for [machine learning](topic_lecture_relation) topic?
+    - Which lectures are available for [machine learning](topic_lecture_relation) topic?
+
+- intent: about_lecture_lab
+  examples: |
+    - What is the lecture and lab content for [Intelligent Systems](lecture_lab_info)?
+    - What are the lecture and lab contents for [Intelligent Systems](lecture_lab_info)?
+
+- intent: about_course_syllabus
+  examples: |
+    - What is the syllabus for [COMP 6741](course_syllabus)?
+    - What is the syllabus for [COMP 6741](course_syllabus) course?
+
+- intent: about_department
+  examples: |
+    - What departments are available under [Gina Cody School of Engineering & Computer Science](department)?
+    - What departments are available under the [Gina Cody School of Engineering & Computer Science](department)?
+
+- intent: about_department_grad_courses
+  examples: |
+    - What graduate courses are offered by [Gina Cody School of Engineering & Computer Science](department_grad_courses)?
+    - What graduate courses are offered by the [Gina Cody School of Engineering & Computer Science](department_grad_courses)?
